@@ -7,18 +7,18 @@
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <section>
-    <div class="">
-      <h1>Want to go to Mars?</h1>
-      <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+  <section class="pad-t">
+    <div class="max-length">
+      <h1 class="not-bold">Want to go to Mars?</h1>
+      <p class="">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
 
-      <p>Personal Details</p>
+      <p class="italic">Personal Details</p>
 
-      <form class="" action="https://formspree.io/roho0004@algonquinlive.com" method="post">
+      <form class="pad-b" action="https://formspree.io/roho0004@algonquinlive.com" method="post">
 
         <div class="">
           <label for="name">Name</label>
@@ -27,6 +27,7 @@
 
         <div class="">
           <label for="age">Age</label>
+           <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
           <input id="age" type="numbers" name="" value="">
         </div>
 
@@ -43,6 +44,22 @@
             <option>Not terribly strong</option>
             <option value="">A little couch-potato-y</option>
           </select>
+        </div>
+
+        <div class="">
+          <label for="address">Address</label>
+          <input id="address" type="text" name="" value="">
+        </div>
+
+      </form>
+
+      <p class="italic">Mission Statement</p>
+
+      <form class="" action="index.html" method="post">
+
+        <div class="pad-b">
+          <label for="statement">Why do you want to go to Mars?</label>
+          <input id="statement" type="text" name="" value="">
         </div>
 
         <button type="submit" name="button">Register for the trip!</button>
