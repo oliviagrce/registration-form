@@ -13,7 +13,7 @@
   <body class="max-length">
 
     <h1 class="pad-t gutter not-bold zetta">Want to go to Mars?</h1>
-    <p class="">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+    <p class="mega gutter">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
 
     <form class="pad-b" action="https://formspree.io/roho0004@algonquinlive.com" method="post">
 
@@ -25,34 +25,37 @@
 
           <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-2 gutter push space-right">
             <label for="name">Name</label>
-            <input id="name" type="text" name="" value="">
+            <input id="name" type="text" required>
           </div>
 
           <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-2 gutter push space-left">
             <label for="age">Age</label>
-            <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
-            <input id="age" type="numbers" name="" value="">
+            <input id="age" type="number" required>
           </div>
 
           <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-2 gutter push space-right">
             <label for="email">Email</label>
-            <input id="email" type="email" name="" value="me@me.com">
+            <input id="email" type="email" required>
           </div>
 
           <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-2 gutter push space-left">
-            <label for="physical fitness">Physical fitness</label>
-            <select id="physical fitness" name="">
+            <label for="physical-fitness">Physical fitness</label>
+            <select id="physical-fitness" name="physical-fitness">
               <option>Super-human</option>
               <option>Fit as a fiddle</option>
               <option>Not terribly strong</option>
-              <option value="">A little couch-potato-y</option>
+              <option>A little couch-potato-y</option>
             </select>
           </div>
 
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 ">
-            <label for="address">Address</label>
-            <input id="address" type="text" name="" value="">
-          </div>
+        </div>
+
+        <div class="gutter">
+          <label for="address">Address</label>
+          <input id="address" type="text" name="" value="">
+        </div>
+
+
 
           <div class="unit unit-xs-1 unit-s- unit-m-1 unit-l-1 unit-xl-1 italic">
             <p class="italic">Mission statement</p>
